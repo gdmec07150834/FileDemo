@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.gdmec.s07150834.filedemo.MainActivity">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhoneDirectory"
+        android:onClick="phoneDirectory"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStoragePublicDirctory"
+        android:id="@+id/externalStoragePublicDirctory"
+        android:onClick="externalStoragePublicDirctory"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStorageDirectory"
+        android:id="@+id/externalStorageDirectory"
+        android:onClick="externalStorageDirectory"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadCacheDirectory"
+        android:id="@+id/downloadCacheDirectory"
+        android:onClick="downloadCacheDirectory"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bootDirectory"
+        android:id="@+id/bootDirectory"
+        android:onClick="bootDirectory"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dataStorage"
+        android:id="@+id/dataStorage"
+        android:onClick="dataStorage"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/resutlt"
+        />
+</LinearLayout>
